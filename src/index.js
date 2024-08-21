@@ -33,7 +33,7 @@ function renderDetails(ramen) {
   //ramenDetailDiv.src = ramen
   detailImage.src = ramen.image;
   detailImage.alt = ramen.name;
-  ramenName.textContent = ramen.name;
+  ramenName.textConftent = ramen.name;
   restaurantName.textContent = ramen.restaurant; 
   ratingDisplay.textContent = ramen.rating;
   commentDisplay.textContent = ramen.comment;
